@@ -1,0 +1,60 @@
+.Card {
+  box-shadow: 2px 2px 6px gray;
+  width: 350px;
+  height: 290px;
+  font-family: "monospace", "Century", "MS Serif";
+}
+
+.Topic {
+  position: relative;
+  margin: 0;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.Topic h1 {
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  font-size: 16px;
+}
+
+.Topic h2 {
+  position: absolute;
+  top: 195px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.Topic p {
+  position: absolute;
+  top: 225px;
+  right: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+img {
+  width: 350px;
+  opacity: 0.8;
+}
+
+.reference {
+  font-size: 12px;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: dimgray;
+  opacity: 0.7;
+}
+
+.location {
+  font-size: 16px;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: dimgray;
+  opacity: 0.8;
+  font-weight: bold;
+}
